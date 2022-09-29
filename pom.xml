@@ -20,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.141.153.69:9000/</sonar.host.url>
+		<sonar.host.url>http://18.221.241.146:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://13.59.195.203:8081/repository/google-release/</url> 
+	      <url>http://18.118.82.248:8081/repository/google-release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://13.59.195.203/repository/google-snapshot/</url>
+	      <url>http://18.118.82.248/repository/google-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
